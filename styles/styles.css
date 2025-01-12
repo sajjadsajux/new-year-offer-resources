@@ -412,14 +412,15 @@ margin-right: 266px; */
   margin-left: 177px;
 }
 .gridline {
-  align-items: center;
-  justify-content: center;
-  margin-top: 120px;
+  
   display: flex;
-  text-align: center;
+  
 }
 .gridline-contents {
-  margin-bottom: 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .gridline-contents h5 {
   color: rgb(255, 0, 0);
@@ -430,7 +431,7 @@ margin-right: 266px; */
   letter-spacing: 0%;
   text-align: left;
   width: 192px;
-  height: 29px;
+  /* height: 29px; */
   padding: 0px auto;
   margin-bottom: 16px;
 }
@@ -444,7 +445,7 @@ margin-right: 266px; */
   text-align: left;
   text-transform: capitalize;
   width: 566px;
-  height: 60px;
+  /* height: 60px; */
   margin-bottom: 22px;
 }
 .gridline-contents p {
@@ -456,25 +457,83 @@ margin-right: 266px; */
   letter-spacing: 0%;
   text-align: left;
   width: 896px;
-  height: 64px;
+  /* height: 64px; */
   margin-bottom: 48px;
 }
 .imagegrids {
-  height: 450px;
+  /* height: 450px; */
   border-radius: 16px;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
   gap: 24px; /* Adds space between images */
 }
-.Subscribe {
-  margin-top: 120px;
-
-}
-.Subscribe-contain{
+/* form section */
+.form-content {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   width: 1320px;
-  height: 616px;
+height: 616px;
+text-align: center;
+margin: 120px auto;
+}
+.form-content img{
+width: 150px;
+height: 150px;
+padding-top:  60px;
+}
+.form-content h1{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+padding-top: 40px
+
+}
+.form-content p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+padding: 22px 212px 48px;
+}
+.inputbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  
+}
+.form-content input{
+  border-radius: 50px 0 0 50px;
+  background: rgb(255, 255, 255);  
+  width: 580px;
+  height: 72px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+}
+.form-content button{
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+padding: 24px 56px;
+border: none;
 
 }
