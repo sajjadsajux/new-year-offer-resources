@@ -545,8 +545,9 @@ border: none;
   align-items: center;
 }
 .addressocial{
+  width: 1320px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 120px;
   color: rgb(255, 255, 255);
@@ -556,6 +557,7 @@ font-weight: 500;
 line-height: 40px;
 letter-spacing: 0%;
 text-align: left;
+margin: auto;
 }
 .callwebsite{
   display: flex;
@@ -565,7 +567,10 @@ gap: 10px;
 
 }
 .callwebsite img{
-border: 1.5px dashed rgb(255, 255, 255);
+border: 1px dashed rgb(255, 255, 255);
+width: 18px;
+height: 18px;
+margin: auto;
 
 }
 .addressocial p{
@@ -577,6 +582,7 @@ height: 80px;
 .footerc hr{
   width: 1320px;
   margin: 50px auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 
 }
 .socialmedia img{
@@ -591,8 +597,10 @@ height: 62.5px;
 }
 .copyright{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom:  50px;
+  width: 1320px;
+  margin: auto;
   
 }
 .copyright p{
@@ -603,4 +611,9 @@ font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+
+.hoover:hover{
+  background-color: rgb(68, 66, 65);
 }
